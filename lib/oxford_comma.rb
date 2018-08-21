@@ -9,6 +9,6 @@ def oxford_comma(array)
     special = array.pop
     array.pop
     array.join(" , ")
-    
+    array.push("and" special)
   end
 end
