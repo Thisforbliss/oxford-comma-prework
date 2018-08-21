@@ -1,6 +1,7 @@
 
 require 'pry'
 def oxford_comma(array)
+  bindin.pry
   if array.length == 1
     array.join
   elsif array.length == 2
