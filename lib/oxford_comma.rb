@@ -8,5 +8,6 @@ def oxford_comma(array)
   elsif array.length == 3
    special = array.pop
     array.pop, array.join(" , "), array.push("and" #{special})
+    array
   end
 end
